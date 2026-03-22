@@ -5,6 +5,45 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
 ![NLP](https://img.shields.io/badge/NLP-FF6F61?style=for-the-badge&logo=openai&logoColor=white)
+
+---
+
+## About
+
+A Telegram bot that uses NLP to analyze market sentiment from news feeds and financial data, sending automated alerts based on configurable thresholds.
+
+## Features
+
+- Real-time news and social media sentiment scraping
+- NLP-based sentiment classification (Bullish / Bearish / Neutral)
+- Automated Telegram alerts with custom thresholds
+- Market sentiment dashboard via bot commands
+- Historical sentiment tracking and trend analysis
+
+## Tech Stack
+
+- Bot Framework: python-telegram-bot
+- NLP Engine: spaCy / Transformers (BERT)
+- Data Sources: NewsAPI, Reddit API
+- Scheduling: APScheduler
+
+## Bot Commands
+
+- /start — Initialize the bot
+- /sentiment TICKER — Get current sentiment for a ticker
+- /alerts — Manage your alert settings
+- /watchlist — View or edit your watchlist
+- /report — Get a full market sentiment report
+
+---
+
+**Author:** Aleksandr Gvozdkov — @voronezh00136-bit# 📡 telegram-market-sentiment-bot
+
+> NLP-powered Telegram bot for real-time market sentiment analysis and automated alerts.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
+![NLP](https://img.shields.io/badge/NLP-FF6F61?style=for-the-badge&logo=openai&logoColor=white)
 ![License](https://img.shields.io/github/license/voronezh00136-bit/telegram-market-sentiment-bot?style=for-the-badge)
 
 ---
